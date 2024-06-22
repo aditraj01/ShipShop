@@ -13,7 +13,7 @@ export default function Navbar(){
     return(
         <>
     <div className={styles.container}>
-        <div className={styles.logo}><NavLink to= "/" onClick={() => dispatch(itemaction.setIsInCart(false))}><h3>Busy Buy</h3></NavLink></div>
+        <div className={styles.logo}><NavLink to= "/" onClick={() => dispatch(itemaction.setIsInCart(false))}><h3>ShipShop</h3></NavLink></div>
         <div className={styles.navMenu}>
             {/* Moving to Home Page */}
             <NavLink to = "/" className={styles.link} onClick={() => dispatch(itemaction.setIsInCart(false))}>
