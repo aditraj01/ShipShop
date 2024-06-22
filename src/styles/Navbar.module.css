@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  color: palevioletred;
+  align-items: center;
+  background: #fff;
+  font-size: 1.2rem;
+  height: 86px;
+  padding: 0 1em;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-evenly;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 15px 20px;
+  max-width: 100%;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+}
+
+.iconStyle{
+  height: 38px;
+  margin: 0 8px;
+  width: 36.79px;
+}
+
+.logo{
+  cursor: pointer;
+  justify-self: start;
+  margin-left: 1px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.navMenu {
+  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(8,auto);
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 85vw;
+}

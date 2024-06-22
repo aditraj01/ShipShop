@@ -1,0 +1,21 @@
+.range{
+    background-color: #7064e5;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 6px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    width: 90%;
+}
+
+.categoriesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.categories:hover{
+    cursor: pointer;
+    color: red;
+}
